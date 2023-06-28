@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Отображение на устройствах -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- maximum-scale=1.0, user-scalable=1.0 -->
+	<!-- Заголовок страницы -->
+	<title>title</title>
+	<!-- Файл со стилями -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка -->
+	<div class="wrapper">
+		<!-- Контент -->
+		<header class="header" id="home">
+			<div class="popup__wrapper">
+				<div class="popupMobile">
+					<a href="#home" class="popup__link">Home</a>
+					<a href="#features" class="popup__link">Features</a>
+					<a href="#screenshots" class="popup__link">Screenshots</a>
+					<a href="#gallery" class="popup__link">Gallery</a>
+					<a href="#" class="close__popup">X</a>
+				</div>
+			</div>
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__wrapper">
+						<div class="nav__links">
+							<a href="#newsletter" class="nav__logo">Smallapps</a>
+							<a href="#home" class="nav__link nav__link--left">Home</a>
+							<a href="#features" class="nav__link nav__link--left">Features</a>
+							<a href="#screenshots" class="nav__link nav__link--left">Screenshots</a>
+							<a href="#gallery" class="nav__link nav__link--left">Gallery</a>
+							<a href="#" class="burger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</a>
+						</div>
+						<a href="#" class="nav__link nav__contacts--link">Contacts</a>
+						<div class="nav__contacts">
+							<a class="nav__link nav__link--right" href="#"><i class="fa fa-phone"></i>800-123-456</a>
+							<a class="nav__link nav__link--right" href="mailto:vlad.ustupniy@yandex.ru"><i class="fa fa-envelope"></i>smallapps@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="header__content">
+					<h1 class="main__title header__title">Perfect app landing page</h1>
+					<h2 class="main__title header__subtitle">Duis bibendum diam</h2>
+					<p class="header__text">
+						Donec elementum mollis magna id aliquet. Etiam eleifend urna eget sem 
+						sagittis feugiat. Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada fames ac turpis egestas.
+					</p>
+					<a href="#" class="header__btn">download</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+
+			<section class="features" data-aos="flip-left" data-aos-anchor-placement="top-center" id="features">
+				<div class="container">
+					<h4 class="main__title features__title">Heading Feature title goes here</h4>
+					<p class="features__text">
+						Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu.<br>
+						Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet. 
+					</p>
+					<div class="features__wrapper">
+						<div class="features__links">
+							<a href="#" class="features__link features__link--one">
+								<i class="fa fa-heart"></i>
+								<span>Heading title one</span>
+							</a>
+							<a href="#" class="features__link features__link--two">
+								<i class="fa fa-briefcase"></i>
+								<span>Heading title one</span>
+							</a>
+							<a href="#" class="features__link features__link--three">
+								<i class="fa fa-leaf"></i>
+								<span>Heading title one</span>
+							</a>
+							<a href="#" class="features__link features__link--four">
+								<i class="fa fa-map"></i>
+								<span>Heading title one</span>
+							</a>
+							<a href="#" class="features__link features__link--five">
+								<i class="fa fa-umbrella"></i>
+								<span>Heading title one</span>
+							</a>
+							<span class="features__stick"></span>
+						</div>
+						<div class="features__cards">
+							<div class="features__card features__card--one">
+								<div class="card__img"><i class="fa fa-heart"></i></div>
+								<h5 class="card__title">Heading Feature title goes here - 1</h5>
+								<p class="card__text">
+									Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.
+								</p>
+							</div>
+							<div class="features__card features__card--two">
+								<div class="card__img"><i class="fa fa-briefcase"></i></div>
+								<h5 class="card__title">Heading Feature title goes here - 2</h5>
+								<p class="card__text">
+									Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante.
+								</p>
+							</div>
+							<div class="features__card features__card--three">
+								<div class="card__img"><i class="fa fa-leaf"></i></div>
+								<h5 class="card__title">Heading Feature title goes here - 3</h5>
+								<p class="card__text">
+									Ut sit amet mi ac neque sodales facilisis. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.
+								</p>
+							</div>
+							<div class="features__card features__card--four">
+								<div class="card__img"><i class="fa fa-map"></i></div>
+								<h5 class="card__title">Heading Feature title goes here - 4</h5>
+								<p class="card__text">
+									Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.
+								</p>
+							</div>
+							<div class="features__card features__card--five">
+								<div class="card__img"><i class="fa fa-umbrella"></i></div>
+								<h5 class="card__title">Heading Feature title goes here - 5</h5>
+								<p class="card__text">
+									Nunc accumsan hendrerit nunc, <b>ac venenatis magna facilisis quis</b>. Ut sit amet mi ac neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="screens">
+				<div class="container">
+					<div class="screens__wrapper--reverse">
+						<div class="screens__imgs" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+							<img class="img-phone1 img-phone1--left" src="./img/red-phone.png" alt="phone">
+							<img class="img-screen img-screen--left" src="./img/screen.png" alt="screen">
+						</div>
+
+						<div class="screens__content" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
+							<h4 class="main__title screens__title">
+								Onec ultrices ultricies tellus perfect screens here
+							</h4>
+
+							<h4 class="screens__subtitle">
+								Duis bibendum diam non erat facilisis tincidunt.
+							</h4>
+
+							<p class="screens__text">
+								Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet. 
+							</p>
+
+							<a href="#" class="screens__btn">learn more</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ourGallery" data-aos="zoom-out-up" data-aos-anchor-placement="top-center" id="gallery">
+				<div class="container">
+					<h4 class="main__title ourGallery__title">Our Latest screenshots gallery</h4>
+					<p class="ourGallery__text">
+						Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu.<br>
+						Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.
+					</p>
+					<div class="slider">
+						<div class="slider__item fade">
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>1
+								</p>
+							</div>
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>1
+								</p>
+							</div>
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>1
+								</p>
+							</div>
+						</div>
+
+						<div class="slider__item fade">
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>2
+								</p>
+							</div>
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>2
+								</p>
+							</div>
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>2
+								</p>
+							</div>
+						</div>
+
+						<div class="slider__item fade">
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>3
+								</p>
+							</div>
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>3
+								</p>
+							</div>
+							<div class="item__wrapper">
+								<div class="slider__images">
+									<img class="img-mobile" src="./img/mobile.png" alt="mobile">
+									<img class="img-sliderSscreen" src="./img/screen.png" alt="screen">
+								</div>
+								<p class="slider__text">
+									Duis bibendum diam non erat facilaisis 
+									tincidunt. Fusce leo neque, lacinia at 
+									tempor vitae, porta at arcu.
+									<br>3
+								</p>
+							</div>
+						</div>
+						
+						<a class="prev" onclick="plusSlides2(-1)">
+							<img src="./img/svg-ico/arrow-prev.svg" alt="arrow-prev">
+						</a>
+        				<a class="next" onclick="plusSlides2(1)">
+							<img src="./img/svg-ico/arrow-next.svg" alt="arrow-next">
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="screens" id="screenshots">
+				<div class="container">
+					<div class="screens__wrapper">
+						<div class="screens__imgs" data-aos="fade-left" data-aos-anchor-placement="top-center">
+							<img class="img-phone1" src="./img/red-phone.png" alt="phone">
+							<img class="img-screen" src="./img/screen.png" alt="screen">
+							<img class="img-phone2" src="./img/red-phone.png" alt="phone">
+						</div>
+
+						<div class="screens__content" data-aos="fade-right" data-aos-anchor-placement="top-center">
+							<h4 class="main__title screens__title">
+								Onec ultrices ultricies tellus perfect screens here
+							</h4>
+
+							<h4 class="screens__subtitle">
+								Duis bibendum diam non erat facilisis tincidunt.
+							</h4>
+
+							<p class="screens__text">
+								Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet. 
+							</p>
+
+							<a href="#" class="screens__btn">learn more</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="clients" data-aos="zoom-out-down" data-aos-anchor-placement="bottom-bottom">
+				<h4 class="clients__title main__title">What people say about us</h4>
+
+				<div class="clients__slide fade">
+					<div class="clients__image"><img src="./img/user.jpg" alt="user"></div>
+					<p class="clients__text">“It's official – I love this app, I couldn't be without it now.”</p>
+					<p class="clients__name">Ron Burgundy1</p>
+				</div>
+
+				<div class="clients__slide fade">
+					<div class="clients__image"><img src="./img/user.jpg" alt="user"></div>
+					<p class="clients__text">“It's official – I love this app, I couldn't be without it now.”</p>
+					<p class="clients__name">Ron Burgundy2</p>
+				</div>
+
+				<div class="clients__slide fade">
+					<div class="clients__image"><img src="./img/user.jpg" alt="user"></div>
+					<p class="clients__text">“It's official – I love this app, I couldn't be without it now.”</p>
+					<p class="clients__name">Ron Burgundy3</p>
+				</div>
+
+				<div class="clients__dots">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+			</section>
+
+			<section class="newsletter" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" id="newsletter">
+				<h4 class="newsletter__title main__title">Subscribe our Newsletter</h4>
+				<form>
+					<input class="newsletter__input-text" type="text" placeholder="your email adress">
+					<input class="newsletter__input-btn" type="button" value="submit">
+				</form>
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<p class="footer__text">Say Hi, Get In Touch</p>
+			<ul class="footer__socials">
+				<li class="footer__social"><a href="#">f</a></li>
+				<li class="footer__social"><a href="#">t</a></li>
+				<li class="footer__social"><a href="#">g</a></li>
+				<li class="footer__social"><a href="#">n</a></li>
+				<li class="footer__social"><a href="#">x</a></li>
+			</ul>
+			<ul class="footer__links">
+				<li class="footer__link"><a href="#">Contact</a></li>
+				<li class="footer__link"><a href="#">Twitter</a></li>
+				<li class="footer__link"><a href="#">Press</a></li>
+				<li class="footer__link"><a href="#">Support</a></li>
+				<li class="footer__link"><a href="#">Developers</a></li>
+				<li class="footer__link"><a href="#">Privacy</a></li>
+			</ul>
+			
+		</footer>
+	</div>
+
+	<!-- -------------------------------------------- Подключенные скрипты ------------------------------------------------------- -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init();</script>
+	<script src="https://kit.fontawesome.com/6e9855e17e.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
